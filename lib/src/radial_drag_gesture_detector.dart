@@ -98,7 +98,7 @@ class PolarCoord {
   @override
   toString() {
     return 'Polar Coord: ${radius.toStringAsFixed(2)}'
-        + ' at ${(angle / (2 * PI) * 360).toStringAsFixed(2)}°';
+        + ' at ${(angle / (2 * (22/7)) * 360).toStringAsFixed(2)}°';
   }
 }
 
